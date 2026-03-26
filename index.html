@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Dee Kgaratsi | Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <h2 class="logo">William<span class="accent">.</span></h2>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" class="cv-btn">Download CV</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>William Dee Kgaratsi</h1>
+      <h2>I'm a <span class="typing"></span></h2>
+      <p class="hero-desc">Crafting modern, high-performance websites and applications with clean code and pixel-perfect design.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn outline">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/kentronix.PNG" alt="Kentronix"></div>
+        <div class="project-info">
+          <h3>Kentronix</h3>
+          <p>Corporate technology website with modern UI/UX.</p>
+          <button class="read-more-btn" data-project="kentronix">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/impact.PNG" alt="Impact Edge"></div>
+        <div class="project-info">
+          <h3>Impact Edge</h3>
+          <p>Professional business website for client.</p>
+          <button class="read-more-btn" data-project="impact">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/sandy.PNG" alt="Sandy's Sweet Treats"></div>
+        <div class="project-info">
+          <h3>Sandy's Sweet Treats</h3>
+          <p>Bakery site with menu, gallery & ordering system.</p>
+          <button class="read-more-btn" data-project="sandy">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/agri.PNG" alt="Agriseta"></div>
+        <div class="project-info">
+          <h3>Agriseta</h3>
+          <p>Government WordPress website.</p>
+          <button class="read-more-btn" data-project="agriseta">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/MrB.PNG" alt="Mr Buffalo Food"></div>
+        <div class="project-info">
+          <h3>Mr Buffalo Food</h3>
+          <p>Modern food ordering website with cart system and WhatsApp integration.</p>
+          <button class="read-more-btn" data-project="mrbuffalo">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"><img src="imgs/Wizgiene.PNG" alt="Wizgiene"></div>
+        <div class="project-info">
+          <h3>Wizgiene</h3>
+          <p>Clean and professional hygiene services website.</p>
+          <button class="read-more-btn" data-project="wizgiene">Read More</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JOURNEY (Updated with About Me + Experience) -->
+  <section id="journey" class="section">
+    <h2 class="section-title">My Journey</h2>
+    
+    <div class="about-summary">
+      <p><strong>About Me</strong></p>
+      <p>Driven and detail-oriented Information Technology professional with a strong foundation in programming, debugging, and system management. Passionate about building responsive, user-friendly WordPress websites that help brands grow. Experienced in both front-end and back-end development using HTML, CSS, PHP, JavaScript, C#, Java, and Python.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2022 — 2024</div>
+        <h3>Junior Software Engineer – HOPMEDIA</h3>
+        <p>Designed, developed, and maintained software applications. Conducted code reviews, debugging, testing, and database optimization. Worked with Java, C#, Python, HTML, CSS, JavaScript, and SQL. Integrated AWS S3 for media file management in broadcast systems.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2024 — 2025</div>
+        <h3>Junior ICT Specialist – Softkings IT Solutions</h3>
+        <p>Built and optimized WordPress websites for clients including Impact Edge, Agriseta, and Brand Basani. Customized themes, integrated plugins, handled website migrations, and ensured responsive, SEO-friendly performance.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2025 — Present</div>
+        <h3>Building My Portfolio & Seeking New Opportunities</h3>
+        <p>Continuously developing premium web solutions and expanding my skills in modern web technologies while looking for the next challenge where I can deliver real impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-info">
+      <div class="contact-card">
+        <h3>Email</h3>
+        <a href="mailto:williamdeekgaratsi@gmail.com" class="contact-link">williamdeekgaratsi@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <h3>Call / WhatsApp</h3>
+        <a href="https://wa.me/27789347917" target="_blank" class="contact-link">+27 78 934 7917</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close">×</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 William Dee Kgaratsi • Built with passion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
