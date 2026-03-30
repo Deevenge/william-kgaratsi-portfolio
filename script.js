@@ -43,14 +43,14 @@ const projectData = {
     title: "Kentronix", 
     body: `
       <p><strong>Role:</strong> Freelance Web Developer</p>
-      <p><strong>Tools:</strong> HTML, CSS, JavaScript, GitHub, Cpanel</p>
+      <p><strong>Tools:</strong>Wordpress, HTML, CSS,Cpanel</p>
       <ul>
         <li>Built a modern corporate technology website</li>
         <li>Designed logo & animations</li>
         <li>Created banners using Canva</li>
       </ul>
       <p><strong>Live Site:</strong> <a href="https://kentronix.co.za" target="_blank">kentronix.co.za</a></p>
-      <p><strong>Code:</strong> <a href="https://github.com/Deevenge/kentrixio-site" target="_blank">View on GitHub</a></p>
+     
     ` 
   },
 
