@@ -135,3 +135,69 @@ footer { text-align:center; padding:60px 20px 40px; color:#64748b; font-size:0.9
   font-size: 1.1rem;
   margin-bottom: 12px;
 }
+/* Make all links light blue / white-ish blue */
+a {
+  color: #60a5fa;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #93c5fd;     /* slightly brighter blue on hover */
+}
+
+/* Make sure modal links also look good */
+.modal a {
+  color: #60a5fa;
+}
+
+.modal a:hover {
+  color: #bae6fd;
+}
+
+/* HERO - Two Column Layout with Photo */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.15), transparent 70%);
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: left;
+}
+
+.hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  border: 6px solid rgba(96, 165, 250, 0.3);
+}
+
+/* Mobile - Stack vertically */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .hero-photo img {
+    max-width: 280px;
+  }
+}
