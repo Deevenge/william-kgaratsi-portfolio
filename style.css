@@ -154,7 +154,7 @@ a:hover {
   color: #bae6fd;
 }
 
-/* HERO - Two Column Layout with Photo */
+/* HERO - Improved Layout */
 .hero {
   height: 100vh;
   display: flex;
@@ -172,13 +172,28 @@ a:hover {
   align-items: center;
 }
 
-.hero-content {
-  text-align: left;
+.hero-content h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(3.2rem, 7vw, 5.8rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 12px;
 }
 
-.hero-photo {
-  display: flex;
-  justify-content: center;
+.typing {
+  font-size: 1.9rem;
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+.hero-desc {
+  font-size: 1.28rem;
+  color: #94a3b8;
+  max-width: 520px;
+}
+
+.hero-buttons {
+  margin-top: 40px;
 }
 
 .hero-photo img {
@@ -189,12 +204,12 @@ a:hover {
   border: 6px solid rgba(96, 165, 250, 0.3);
 }
 
-/* Mobile - Stack vertically */
+/* Mobile */
 @media (max-width: 768px) {
   .hero-inner {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 30px;
+    gap: 40px;
   }
   
   .hero-photo img {
